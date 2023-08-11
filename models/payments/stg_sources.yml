@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: payments
+      description: This is a replica of the Postgres database used by our app
+      database: local_db
+      schema: training
+      tables:
+          - name: raw_payments
